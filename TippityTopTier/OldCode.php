@@ -176,9 +176,10 @@ createCookie($a,$b);
 
 retrieveCookie($a);
 
-
+//desktop host localhost:8889
+//laptop host localhost:3306
 global $db_host;
-$db_host= "localhost:3306";
+$db_host= "localhost:8889";
 global $db_username;
 $db_username = "root";
 global $db_password ;
