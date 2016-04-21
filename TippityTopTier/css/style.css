@@ -5,7 +5,7 @@ body{
 }
 
 #sidebar{
-    background:#151718;
+    background:#696969 ;
     width:200px;
     height:100%;
     display:block;
@@ -30,8 +30,8 @@ ul li{
 }
 
 ul li a{
-    background:#1C1E1F;
-    color:#ccc;
+    background: rgba(160,160,160);
+    color: white;
     display:block;
     width:180px;
     padding:10px;
@@ -39,8 +39,8 @@ ul li a{
     text-align: center;
 }
 ul li a:hover{
-    background:white;
-    color:#1C1E1F;
+    background-image: url("../nav.jpg");
+    color:#696969 ;
     display:block;
     width:180px;
     padding:10px;
@@ -76,8 +76,9 @@ ul li a:hover{
 }
 
 #title1 {
-    background:#00000;
-    color: #1C1E1F;
+    color: red;
+    background:rgba(64,64,64) ;
+
     display:block;
     width:180px;
     padding:10px;
