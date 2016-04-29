@@ -5,7 +5,7 @@ body{
 }
 
 #sidebar{
-	background:#003459;
+	background:#17527F;
 	width:200px;
 	height:100%;
 	display:block;
@@ -30,7 +30,7 @@ ul li{
 }
 
 ul li a{
-	background:#007EA7;
+	background:#17527F;
 	color:#FFFFFF;
 	text-align: center;
 	display:block;
@@ -39,7 +39,7 @@ ul li a{
 	text-decoration: none;
 }
 ul li a:hover{
-	background:#1887B2;
+	background:#3E627F;
 	color:#FFFFFF;
 	text-align: center;
 	display:block;
