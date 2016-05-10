@@ -1,0 +1,35 @@
+form {
+    margin-left: 33%;
+    margin-right: 37.5%;
+    width: 100%;
+
+}
+form input {
+		text-align: center;
+		margin-bottom: 20px;
+		
+
+}
+input[type="text"] {
+	text-align: center;
+	width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type="password"] {
+	text-align: center;
+	width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	margin: auto;
+}
+
+input[type="submit"] {
+	text-align: center;
+	width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
