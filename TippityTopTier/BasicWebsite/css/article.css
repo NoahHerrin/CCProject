@@ -1,0 +1,14 @@
+article {
+	text-align:center;
+	margin: 20px;
+	width: 200px;
+	height: 300px;
+	border: 2px solid black;
+	float: left;
+}
+article h1 {
+	border-bottom: 1px solid black;
+}
+article p{
+	font-size:10px;
+}
