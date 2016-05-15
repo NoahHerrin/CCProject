@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/header.css">
@@ -15,13 +19,24 @@
     </head>
     <body>
 	<header> <a href="Index.html" class="title">Tippity Top Tier</a> <a href="#Find Game">Find Game</a> <a href="#Find Team">Find Team</a> <a href="#Find Player">Find Player</a></header>
-	<div id="login">
+	<div id="register" class="register">
+	<h1>Register</h1>
+	<form action="signup.php" method="POST">
+		<input type="text" name="email" placeholder="email"></br>
+		<input type="text" name="username" placeholder="Username"></br>
+		<input type="password" name="password" placeholder="password"></br>
+		<input type="submit" value="Submit">
+	</form>
+	</div>
+	
+	<div id="login" class="login">
 	<h1>Login</h1>
-	<form>
+	<form action="login.php" method="POST">
 		<input type="text" name="email" placeholder="email"></br>
 		<input type="password" name="password" placeholder="password"></br>
 		<input type="submit" value="Submit">
 	</form>
 	</div>
+	
     </body>
 </html>

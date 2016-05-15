@@ -1,16 +1,29 @@
 header {
-	text-align: center;
-	border-bottom: 1px solid black;
+	padding-left: 15%;
 	padding-bottom: 10px;
-	padding-left: 12%;
+	font-size:30px;
+	display: inline;
 
 }
 header a{
 	text-decoration: none;
-	color: black;
+	color: white;
+	padding-left: 100px;
+}
+header a:hover{
+	text-decoration: underline;
+	color: white;
+	padding-left: 100px;
 }
 #auth {
 	float: right;
-	color: black;
+	color: white;
+}
+header a.title {
+	text-decoration: none;
 }
 
+#container {
+	margin: auto;
+	color: red;
+}
