@@ -10,6 +10,7 @@
     
     <p>This page will be the dashboard for each game.
     <ul>
+        
         <li>Check in with potential Disconnect Timer</li>
         <li>Information for Connecting the two player</li>
         <li>Confirmation that players are in same lobby</li>
@@ -25,6 +26,15 @@
     //Agree Dispute Score
     //Report to Moderator
     
+    <?php
+        function Confirm($confirmation) {
+            
+        }
+        function getDQTimer() {
 
+        }
+
+        
+    ?>
 </body>
 </html>
